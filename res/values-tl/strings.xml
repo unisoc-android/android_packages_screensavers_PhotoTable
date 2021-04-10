@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"Piliin Lahat"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"I-deselect Lahat"</string>
     <string name="no_photos" msgid="4262083523147564199">"Walang mga larawan sa device."</string>
+    <string name="toast_fileexplorer_internal_error">"Isang panloob na kamalian ang naganap sa DayDream"</string>
+    <string name="error_permissions">"Walang kritikal na pahintulot ang app na kailangan sa pagtakbo. Pakitingnan ang mga setting mo ng pahintulot."</string>
+    <string name="dialog_dismiss">"Balewalain"</string>
 </resources>

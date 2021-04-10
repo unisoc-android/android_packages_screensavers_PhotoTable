@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"எல்லாவற்றையும் தேர்ந்தெடு"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"எல்லா தேர்வையும் நீக்கு"</string>
     <string name="no_photos" msgid="4262083523147564199">"சாதனத்தில் படங்கள் எதுவுமில்லை."</string>
+    <string name="toast_fileexplorer_internal_error">"டேடிரீமில் ஒரு உட்புற கோளாறு ஏற்ப்பட்டுள்ளது."</string>
+    <string name="error_permissions">"பயன்பாடு செயல்படத் தேவையான முக்கிய அனுமதிகள் இல்லை. உங்கள் அனுமதி அமைப்புகளை சரிபார்க்கவும்."</string>
+    <string name="dialog_dismiss">"நிராகரி"</string>
 </resources>

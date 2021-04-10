@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"Chọn tất cả"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"Bỏ chọn tất cả"</string>
     <string name="no_photos" msgid="4262083523147564199">"Không có ảnh trên thiết bị."</string>
+    <string name="toast_fileexplorer_internal_error">"Một lỗi bên trong xảy ra trong Daydream."</string>
+    <string name="error_permissions">"Ứng dụng không có các quyền quan trọng cần thiết để chạy. Vui lòng kiểm tra cài đặt quyền của bạn."</string>
+    <string name="dialog_dismiss">"Loại bỏ"</string>
 </resources>

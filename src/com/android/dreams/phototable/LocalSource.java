@@ -102,7 +102,10 @@ public class LocalSource extends CursorPhotoSource {
                         } else {
                             data.title = mUnknownAlbumName;
                         }
-
+                        //bug 1130069 : NPE occurs when get null name from Media
+                        if (data.title == null) {
+                            data.title = mUnknownAlbumName;
+                        }
                         log(TAG, data.title + " found");
                         foundAlbums.put(id, data);
                     }

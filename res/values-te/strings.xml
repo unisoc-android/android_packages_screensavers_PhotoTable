@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"అన్నీ ఎంచుకోండి"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"అన్ని ఎంపికలను తీసివేయి"</string>
     <string name="no_photos" msgid="4262083523147564199">"పరికరంలో ఫోటోలు లేవు."</string>
+    <string name="toast_fileexplorer_internal_error">"DayDreamలో అంతర్గత లోపం సంభవించింది."</string>
+    <string name="error_permissions">"యాప్ అమలు చేయడానికి అవసరమైన క్లిష్టమైన అనుమతులు లేవు .మీ అనుమతుల సెట్టింగులను తనిఖీ చెయ్యండి."</string>
+    <string name="dialog_dismiss">"డిస్‌మిస్"</string>
 </resources>

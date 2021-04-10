@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"Seleccionar todo"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"Desmarcar todo"</string>
     <string name="no_photos" msgid="4262083523147564199">"No hay fotos en el dispositivo."</string>
+    <string name="toast_fileexplorer_internal_error">"Se ha producido un error interno en el protector de pantalla interactiva."</string>
+    <string name="error_permissions">"La aplicación no tiene permisos críticos necesarios para funcionar. Se recomienda consultar los permisos de configuración."</string>
+    <string name="dialog_dismiss">"Descartar"</string>
 </resources>

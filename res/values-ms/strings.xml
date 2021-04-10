@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"Pilih Semua"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"Nyahpilih Semua"</string>
     <string name="no_photos" msgid="4262083523147564199">"Tiada foto pada peranti."</string>
+    <string name="toast_fileexplorer_internal_error">"Ralat dalaman berlaku dalam DayDream."</string>
+    <string name="error_permissions">"Aplikasi ini tidak mempunyai kebenaran kritikal yang diperlukan untuk menjalankannya. Sila semak tetapan kebenaran anda."</string>
+    <string name="dialog_dismiss">"Tolak"</string>
 </resources>

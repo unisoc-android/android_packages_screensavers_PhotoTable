@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"ជ្រើសរើស​ទាំងអស់"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"មិន​ជ្រើស​ទាំងអស់"</string>
     <string name="no_photos" msgid="4262083523147564199">"គ្មាន​រូបថត​លើ​ឧបករណ៍។"</string>
+    <string name="toast_fileexplorer_internal_error">មានបញ្ហាផ្នែកខាងក្នុងបានកើតឡើងពេលស្ថិតក្នុងដេយ៍ឌ្រីម។</string>
+    <string name="error_permissions">"កម្មវិធីមិនមានការអនុញ្ញាតចាំបាច់ដើម្បីដំណើរការទេ។ សូមពិនិត្យមើលការកំណត់ការអនុញ្ញាតរបស់អ្នក។"</string>
+    <string name="dialog_dismiss">"បោះបង់"</string>
 </resources>

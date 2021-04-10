@@ -15,12 +15,19 @@
  */
 package com.android.dreams.phototable;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.app.ListActivity;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.database.DataSetObserver;
 import android.os.AsyncTask;
 import android.os.AsyncTask.Status;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -28,6 +35,7 @@ import android.view.View;
 
 import java.util.LinkedList;
 
+import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
 /**
  * Settings panel for photo flipping dream.
  */
@@ -42,18 +50,37 @@ public class FlipperDreamSettings extends ListActivity {
     private SectionedAlbumDataAdapter mAdapter;
     private MenuItem mSelectAll;
     private AsyncTask<Void, Void, Void> mLoadingTask;
+    private AlertDialog mDialog;
+    private static final int STORAGE_PERMISSION_REQUEST_CODE = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         mSettings = getSharedPreferences(PREFS_NAME, 0);
-        init();
+        /*bug 1119199 : check PhotoTable permisson @{ */
+        if(checkSelfPermission(READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED){
+            requestPermissions(new String[] { READ_EXTERNAL_STORAGE }, STORAGE_PERMISSION_REQUEST_CODE);
+        }
+        /* @} */
     }
 
     @Override
     protected void onResume(){
         super.onResume();
-        init();
+        /*bug 1119199 : check PhotoTable permisson @{ */
+        if(checkSelfPermission(READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED){
+            init();
+        }
+        /* @} */
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mDialog != null && mDialog.isShowing()) {
+            mDialog.dismiss();
+        }
+        mDialog = null;
     }
 
     protected void init() {
@@ -135,4 +162,43 @@ public class FlipperDreamSettings extends ListActivity {
             }
         }
     }
+    /* bug 1119199 : check PhotoTable permisson @{ */
+    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+        switch (requestCode) {
+        case STORAGE_PERMISSION_REQUEST_CODE:
+            if(grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                init();
+            } else {
+                showConfirmDialog();
+            }
+        default:
+            break;
+        }
+    }
+
+    public void showConfirmDialog() {
+        Log.d(TAG, "showConfirmDialog");
+        mDialog = new AlertDialog.Builder(this)
+                .setTitle(getResources().getString(R.string.toast_fileexplorer_internal_error))
+                .setMessage(getResources().getString(R.string.error_permissions))
+                .setCancelable(false)
+                .setOnKeyListener(new Dialog.OnKeyListener() {
+                    @Override
+                    public boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event) {
+                        if (keyCode == KeyEvent.KEYCODE_BACK) {
+                            finish();
+                        }
+                        return true;
+                    }
+                })
+                .setPositiveButton(getResources().getString(R.string.dialog_dismiss),
+                        new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                finish();
+                            }
+                        }).create();
+        mDialog.show();
+    }
+    /* @} */
 }

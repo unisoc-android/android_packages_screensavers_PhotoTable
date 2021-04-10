@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"เลือกทั้งหมด"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"ยกเลิกการเลือก"</string>
     <string name="no_photos" msgid="4262083523147564199">"ไม่มีรูปภาพบนอุปกรณ์"</string>
+    <string name="toast_fileexplorer_internal_error">"เกิดข้อผิดพลาดภายในขึ้นใน DayDream"</string>
+    <string name="error_permissions">"แอพไม่ได้รับอนุญาตที่จำเป็นต้องใช้เพื่อเรียกใช้ โปรดตรวจสอบการตั้งค่าการอนุญาตของคุณ"</string>
+    <string name="dialog_dismiss">"ปิด"</string>
 </resources>

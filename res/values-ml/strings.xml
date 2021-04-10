@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"എല്ലാം തിരഞ്ഞെടുക്കുക"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"എല്ലാം തിരഞ്ഞെടുത്തത് മാറ്റുക"</string>
     <string name="no_photos" msgid="4262083523147564199">"ഉപകരണത്തിൽ ഫോട്ടോകളൊന്നുമില്ല."</string>
+    <string name="toast_fileexplorer_internal_error">"DayDream ൽ ഒരു ആന്തരിക പിശക് സംഭവിച്ചു."</string>
+    <string name="error_permissions">"പ്രവർത്തിക്കാൻ ആവശ്യമായ നിർണ്ണായക അനുമതികൾ ആപ്പിന് ഇല്ല. ദയവായി താങ്കളുടെ അനുമതി ക്രമീകരണങ്ങൾ പരിശോധിച്ചാലും."</string>
+    <string name="dialog_dismiss">"ബഹിഷ്കരിക്കുക"</string>
 </resources>

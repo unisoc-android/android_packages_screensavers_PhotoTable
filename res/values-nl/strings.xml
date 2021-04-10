@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"Alles selecteren"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"Selec. opheffen"</string>
     <string name="no_photos" msgid="4262083523147564199">"Geen foto\'s op het apparaat."</string>
+    <string name="toast_fileexplorer_internal_error">"Er heeft zich een interne fout voorgedaan in DayDream."</string>
+    <string name="error_permissions">"De app heeft niet de machtigingen die voor de werking noodzakelijk zijn. Kijk de instelling van de machtigingen na."</string>
+    <string name="dialog_dismiss">"Negeren"</string>
 </resources>

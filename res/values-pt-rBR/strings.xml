@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"Selecionar tudo"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"Desmarcar tudo"</string>
     <string name="no_photos" msgid="4262083523147564199">"Nenhuma foto no dispositivo."</string>
+    <string name="toast_fileexplorer_internal_error">"Ocorreu um erro interno em DayDream."</string>
+    <string name="error_permissions">"A aplicação não tem permissões criticais necessárias para rodar. Favor verifique as configurações de suas permissões."</string>
+    <string name="dialog_dismiss">"Dispensar"</string>
 </resources>

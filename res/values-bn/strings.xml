@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"সকল বেছে নিন"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"সবগুলিকে নির্বাচনমুক্ত করুন"</string>
     <string name="no_photos" msgid="4262083523147564199">"ডিভাইসে কোনো ফটো নেয়৷"</string>
+    <string name="toast_fileexplorer_internal_error">"DayDream এ একটি আভ্যন্তরীন ত্রুটি ঘটেছে।"</string>
+    <string name="error_permissions">"আপটি চলার জন্য বিশেষ অনুমতির প্রয়োজন হয়না. অনুগ্রহ করে আপনার অনুমতি সেটিং দেখুন"</string>
+    <string name="dialog_dismiss">"বাতিল করুন "</string>
 </resources>

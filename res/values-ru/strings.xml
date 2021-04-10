@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"Выбрать все"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"Отменить выбор"</string>
     <string name="no_photos" msgid="4262083523147564199">"На устройстве нет фотографий."</string>
+    <string name="toast_fileexplorer_internal_error">"Возникла внутренняя ошибка в DayDream."</string>
+    <string name="error_permissions">"Для запуска приложения не хватает важных разрешений. Проверьте настроенные разрешения."</string>
+    <string name="dialog_dismiss">"Закрыть"</string>
 </resources>

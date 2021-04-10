@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"Επιλογή όλων"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"Αποεπιλέξτε όλα"</string>
     <string name="no_photos" msgid="4262083523147564199">"Δεν υπάρχουν φωτογραφίες στη συσκευή."</string>
+    <string name="toast_fileexplorer_internal_error">"Παρουσιάστηκε κάποιο εσωτερικό σφάλμα στο DayDream."</string>
+    <string name="error_permissions">"Η εφαρμογή δεν διαθέτει κρίσιμα δικαιώματα που απαιτούνται για την εκτέλεσή της. Ελέγξτε τις ρυθμίσεις δικαιωμάτων."</string>
+    <string name="dialog_dismiss">"Παράβλεψη"</string>
 </resources>

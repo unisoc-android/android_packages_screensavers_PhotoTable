@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"Pilih Semua"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"Batalkan Semua"</string>
     <string name="no_photos" msgid="4262083523147564199">"Tidak ada foto di perangkat."</string>
+    <string name="toast_fileexplorer_internal_error">"Internal gagal terjadi di daydrea."</string>
+    <string name="error_permissions">"Apli tidak memiliki izin penting yang diperlukan untuk berjalan. Periksalah pengaturan izin Anda."</string>
+    <string name="dialog_dismiss">"Tutup"</string>
 </resources>

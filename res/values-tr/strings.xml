@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"Tümünü Seç"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"Hiçbirini Seçme"</string>
     <string name="no_photos" msgid="4262083523147564199">"Cihazda hiç fotoğraf yok."</string>
+    <string name="toast_fileexplorer_internal_error">"DayDream sırasında dahili bir hata oluştu."</string>
+    <string name="error_permissions">"Uygulamanın çalışması için gerekli kritik izinler bulunmuyor. Lütfen izin ayarlarınızı kontrol edin."</string>
+    <string name="dialog_dismiss">"Kapat"</string>
 </resources>

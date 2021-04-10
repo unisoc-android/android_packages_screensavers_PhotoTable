@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"ເລືອກທັງຫມົດ"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"ບໍ່ເລືອກທັງໝົດ"</string>
     <string name="no_photos" msgid="4262083523147564199">"ບໍ່ມີຮູບໃນອຸປະກອນນີ້."</string>
+    <string name="toast_fileexplorer_internal_error">​"ເກີດ​ຂໍ້​ຜິດ​ພາດ​ພາຍ​ໃນ​ເດດ​ຣີມ​"</string>
+    <string name="error_permissions">"ແອັບດັ່ງກ່າວບໍ່ໄດ້ຮັບການອະນຸຍາດທີ່ຈໍາເປັນໃນການດໍາເນີນການ. ກະລຸນາກວດສອບການຕັ້ງຄ່າການອະນຸຍາດຂອງທ່ານ."</string>
+    <string name="dialog_dismiss">"ຍົກເລີກ"</string>
 </resources>

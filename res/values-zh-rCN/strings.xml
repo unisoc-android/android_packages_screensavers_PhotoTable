@@ -27,4 +27,9 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"全选"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"全部不选"</string>
     <string name="no_photos" msgid="4262083523147564199">"设备上没有任何照片。"</string>
+    <!-- add for Bug 1119199 @{ -->
+    <string name="error_permissions">"此应用缺少运行所需的必要权限。请检查您的权限设置。"</string>
+    <string name="dialog_dismiss">"关闭"</string>
+    <string name="toast_fileexplorer_internal_error">互动屏保发生内部错误！</string>
+    <!-- @} -->
 </resources>

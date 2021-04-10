@@ -46,4 +46,9 @@
 
     <!-- Text shown instead of a list of albums when there are no albums with photos. [CHAR LIMIT=50] -->
     <string name="no_photos">No photos on the device.</string>
+    <!-- add for Bug 1119199 @{ -->
+    <string name="toast_fileexplorer_internal_error">An internal error occurred in DayDream.</string>
+    <string name="error_permissions">The app does not have critical permissions needed to run. Please check your permissions settings.</string>
+    <string name="dialog_dismiss">Dismiss</string>
+    <!-- @} -->
 </resources>

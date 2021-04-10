@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"Hautatu guztiak"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"Desautatu guztiak"</string>
     <string name="no_photos" msgid="4262083523147564199">"Ez dago argazkirik gailuan."</string>
+    <string name="toast_fileexplorer_internal_error">"Barneko arazo bat egon da DayDream-en."</string>
+    <string name="error_permissions">"Aplikazioak ez ditu exekutatzeko behar dituen oinarrizko baimenak. Egiaztatu baimen-ezarpenak."</string>
+    <string name="dialog_dismiss">Baztertu</string>
 </resources>

@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"සියල්ල තෝරන්න"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"සියල්ල තෝරා නොගන්න"</string>
     <string name="no_photos" msgid="4262083523147564199">"උපාංගය තුළ ඡායාරූප නොමැත."</string>
+    <string name="toast_fileexplorer_internal_error">"DayDream හි අභ්‍යන්තර දෝෂයක් සිදු විය."</string>
+    <string name="error_permissions">"යෙදුමෙහි ධාවනය වීමට අවශ්‍ය වැදගත් අවසර නොමැත. කරුණාකර ඔබේ අවසර සැකසුම් පරීක්ෂා කරන්න."</string>
+    <string name="dialog_dismiss">"අවලංගු කරන්න"</string>
 </resources>

@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"Chagua Zote"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"Usichague yoyote"</string>
     <string name="no_photos" msgid="4262083523147564199">"Hakuna picha kwenye kifaa."</string>
+    <string name="toast_fileexplorer_internal_error">"Hitilafu ya ndani imetokea katika DayDream."</string>
+    <string name="error_permissions">"Programu haina vibali muhimu vinavyohitajika ili kuendeshwa. Tafadhali kagua mipangilio ya vibali vyako."</string>
+    <string name="dialog_dismiss">"Ondoa"</string>
 </resources>

@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"سبھی منتخب کریں"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"سبھی غیر منتخب کریں"</string>
     <string name="no_photos" msgid="4262083523147564199">"آلہ پر کوئی تصاویر موجود نہیں ہیں۔"</string>
+    <string name="toast_fileexplorer_internal_error">"DayDream میں ایک داخلی نقص پیش آیا۔"</string>
+    <string name="error_permissions">" ایپ کو چلانے کے لئے ضروری اہم اجازت نہیں ہے۔ براہ کرم اپن سیٹنگس کی اجازتوں کی جانچ کریں\'َ"</string>
+    <string name="dialog_dismiss">"ہٹائیں"</string>
 </resources>

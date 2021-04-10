@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"အားလုံးရွေးရန်"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"အားလုံးမရွေးပါ"</string>
     <string name="no_photos" msgid="4262083523147564199">"စက်ပစ္စည်းပေါ်တွင် ဓာတ်ပုံမရှိပါ"</string>
+    <string name="toast_fileexplorer_internal_error">"DayDream တွင် အတွင်းပိုင်း ချွတ်ယွင်းမှုတစ်ခု ဖြစ်နေသည်။"</string>
+    <string name="error_permissions">"အက်ပ်တွင် ၎င်းအလုပ်လုပ်ရန် အရေးကြီးသည့် ခွင့်ပြုချက်များကို ရမထားပါ။ သင်၏ ခွင့်ပြုချက် ဆက်တင်များကို စစ်ဆေးပေးပါ။"</string>
+    <string name="dialog_dismiss">"ချန်လှပ်ထားသည်"</string>
 </resources>

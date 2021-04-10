@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"ਸਾਰਿਆਂ ਨੂੰ ਚੁਣੋ"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"ਸਾਰਿਆਂ ਦੀ ਚੋਣ ਹਟਾਓ"</string>
     <string name="no_photos" msgid="4262083523147564199">"ਡੀਵਾਈਸ ਤੇ ਕੋਈ ਫ਼ੋਟੋਆਂ ਨਹੀਂ।"</string>
+    <string name="toast_fileexplorer_internal_error">"ਡੇਡ੍ਰੀਮ ਵਿੱਚ ਇੱਕ ਅੰਦਰੂਨੀ ਤਰੁਟੀ ਹੋਈ।"</string>
+    <string name="error_permissions">"ਐਪ ਕੋਲ ਚਲਾਉਣ ਲਈ ਲੋੜੀਂਦੀਆਂ ਮਹੱਤਵਪੂਰਣ ਪ੍ਰਵਾਨਗੀਆਂ ਨਹੀਂ ਹਨ. ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਪ੍ਰਵਾਨਗੀ ਸੈਟਿੰਗਜ਼ ਦੀ ਜਾਂਚ ਕਰੋ."</string>
+    <string name="dialog_dismiss">ਖਰਿਜ ਕਰੋ</string>
 </resources>

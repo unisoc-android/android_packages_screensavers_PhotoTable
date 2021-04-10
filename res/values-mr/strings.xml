@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"सर्व निवडा"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"सर्व निवड रद्द करा"</string>
     <string name="no_photos" msgid="4262083523147564199">"डिव्हाइसवर कोणतेही फोटो नाहीत"</string>
+    <string name="toast_fileexplorer_internal_error">"दिवास्वप्नामध्ये अंतर्गत त्रुटी आढळली"</string>
+    <string name="error_permissions">"अॅपकडे सुरू राहण्यासाठी आवश्यक असलेल्या क्लिष्ट परवानग्या नाहीत. कृपया तुमच्या परवानगी सेटिंग्ज तपासा."</string>
+    <string name="dialog_dismiss">"फेटाळा"</string>
 </resources>

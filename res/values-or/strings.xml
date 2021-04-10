@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"ସମସ୍ତ ଚୟନ କର"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"ସମସ୍ତ ଅଚୟନ କରନ୍ତୁ"</string>
     <string name="no_photos" msgid="4262083523147564199">"ଡିଭାଇସ୍‌ଟିରେ କୌଣସି ଫଟୋ ନାହିଁ।"</string>
+    <string name="toast_fileexplorer_internal_error">"ଡେ ଡ୍ରିମ୍‌ରେ ଏକ ଆଭ୍ୟନ୍ତରୀଣ ସମସ୍ୟା ହେଲା |"</string>
+    <string name="error_permissions">"ଚାଲିବା ପାଇଁ ଆବଶ୍ୟକ ନିର୍ଣ୍ଣୟମୂଳକ ଅନୁମତି ଏପ ର ନାହିଁ । ଦୟାକରି ଆପଣଙ୍କ ଅନୁମତି ସଂସ୍ଥାପନା ଗୁଡିକୁ ଯାଞ୍ଚ କରନ୍ତୁ ।"</string>
+    <string name="dialog_dismiss">"ଡିସ୍‌ମିସ୍‌"</string>
 </resources>

@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"Zgjidhi të gjitha"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"Çzgjidhi të gjitha"</string>
     <string name="no_photos" msgid="4262083523147564199">"Nuk ka fotografi në pajisje."</string>
+    <string name="toast_fileexplorer_internal_error">"Ndodhi një gabim i brendshëm në DayDream."</string>
+    <string name="error_permissions">"Aplikacioni nuk ka lejet kritike të nevojshme për ekzekutimin. Kontrollo cilësimet e tua të lejeve."</string>
+    <string name="dialog_dismiss">Hiq</string>
 </resources>

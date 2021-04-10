@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"ಎಲ್ಲವನ್ನು ಆಯ್ಕೆಮಾಡಿ"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆ ರದ್ದುಮಾಡಿ"</string>
     <string name="no_photos" msgid="4262083523147564199">"ಸಾಧನದಲ್ಲಿ ಯಾವುದೇ ಫೋಟೋಗಳಿಲ್ಲ."</string>
+    <string name="toast_fileexplorer_internal_error">"ಡೇಡ್ರೀಮ್ ನಲ್ಲಿ ಒಂದು ಆಂತರಿಕ ದೋಷ ಉಂಟಾಗಿದೆ."</string>
+    <string name="error_permissions">"ಅಪ್ಲಿಕೇಶನ್ಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸಲು ಅಗತ್ಯವಿರುವ ನಿರ್ಣಾಯಕ ಅನುಮತಿಗಳನ್ನು ಹೊಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಅನುಮತಿ ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ."</string>
+    <string name="dialog_dismiss">"ತೆಗೆದು ಹಾಕಿ"</string>
 </resources>

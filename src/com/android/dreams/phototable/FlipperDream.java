@@ -15,7 +15,13 @@
  */
 package com.android.dreams.phototable;
 
+import android.content.SharedPreferences;
 import android.service.dreams.DreamService;
+import android.view.View;
+import android.os.Build;
+
+import java.util.Iterator;
+import java.util.LinkedList;
 
 /**
  * Example interactive screen saver: single photo with flipping.
@@ -34,12 +40,47 @@ public class FlipperDream extends DreamService {
         super.onAttachedToWindow();
         AlbumSettings settings = AlbumSettings.getAlbumSettings(
                 getSharedPreferences(FlipperDreamSettings.PREFS_NAME, 0));
-        if (settings.isConfigured()) {
+        //UNISOC:1182309 screensaver show blue photos after delete folders
+        if (settings.isConfigured() && checkImageCount()) {
             setContentView(R.layout.carousel);
         } else {
             setContentView(R.layout.bummer);
         }
 
         setFullscreen(true);
+        //UNISOC:1153863 Hide navigation bar
+        hideNavigationBar();
     }
+
+    /* UNISOC:1153863 Navigationbar display not clearly, hide it @{ */
+    private void hideNavigationBar() {
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.HONEYCOMB
+                &&  Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT) {
+            View v = this.getWindow().getDecorView();
+            v.setSystemUiVisibility(View.GONE);
+        } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            View decorView = getWindow().getDecorView();
+            int uiOptions = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                    | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY | View.SYSTEM_UI_FLAG_FULLSCREEN;
+            decorView.setSystemUiVisibility(uiOptions);
+        }
+    }
+    /* @} */
+
+    /* UNISOC:1182309 screensaver show blue photos after delete folders @{ */
+    private boolean checkImageCount() {
+        SharedPreferences settings = getSharedPreferences(FlipperDream.TAG, 0);
+        PhotoSourcePlexor photoSource = new PhotoSourcePlexor(this, settings);
+        AlbumSettings albumSettings = AlbumSettings.getAlbumSettings(settings);
+        LinkedList<PhotoSource.AlbumData> list = new LinkedList<PhotoSource.AlbumData>(
+                photoSource.findAlbums());
+        Iterator<PhotoSource.AlbumData> it = list.iterator();
+        while (it.hasNext()) {
+            if (albumSettings.isAlbumEnabled(it.next().id)) {
+                return true;
+            }
+        }
+        return false;
+    }
+    /* @} */
 }

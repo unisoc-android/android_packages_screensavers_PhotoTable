@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"सबैलाई चयन गर्नुहोस्"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"सबैलाई अचयन गर्नुहोस्"</string>
     <string name="no_photos" msgid="4262083523147564199">"उपकरणमा कुनै तस्बिर छैन।"</string>
+    <string name="toast_fileexplorer_internal_error">"डेड्रिममा एउटा आन्तरिका त्रुटि भयो।"</string>
+    <string name="error_permissions">"अनुप्रयोग चल्न आवश्यक अनुमतिहरु छैनन्। कृपया तपाईको अनुमति सेटिङहरु जाँच्नुहोस्।"</string>
+    <string name="dialog_dismiss">"खारेज गर्नुहोस्"</string>
 </resources>

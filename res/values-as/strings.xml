@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"সকলো বাছনি কৰক"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"সকলো বাছনি নোহোৱা কৰক"</string>
     <string name="no_photos" msgid="4262083523147564199">"ডিভাইচটোত কোনো ফট\' নাই৷"</string>
+    <string name="toast_fileexplorer_internal_error">"ডেড্ৰিমত অভ্যন্তৰীণ ত্ৰুটি আহিছে।"</string>
+    <string name="error_permissions">"এপ্পটোৰ চলাবলৈ আৱশ্যকীয় জটিল অনুমতি নাই। অনুগ্ৰহ কৰি আপোনাৰ অনুমতি ছেটিংছ পৰীক্ষা কৰক।"</string>
+    <string name="dialog_dismiss">"নাকচ কৰক"</string>
 </resources>

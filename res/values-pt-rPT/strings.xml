@@ -27,4 +27,7 @@
     <string name="photodream_select_all" msgid="6364858563337927827">"Selecionar Tudo"</string>
     <string name="photodream_select_none" msgid="8816452124894525861">"Desmarcar Tudo"</string>
     <string name="no_photos" msgid="4262083523147564199">"Sem fotos no dispositivo."</string>
+    <string name="toast_fileexplorer_internal_error">"Um erro internal occorido em DiaSonho."</string>
+    <string name="error_permissions">"A aplicação não tem autorizações críticas que são necessárias para ser executada. Verifique as definições das autorizações."</string>
+    <string name="dialog_dismiss">"Ignorar"</string>
 </resources>
